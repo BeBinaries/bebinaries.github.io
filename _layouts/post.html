@@ -1,0 +1,36 @@
+---
+layout: "headerfooter"
+---
+      <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Projects
+          </h1>
+          <h2 class="subtitle">
+            {{ page.title }}
+          </h2>
+        </div>
+        <br>
+        <br>
+        <div class="control">
+        <div class="tags has-addons">
+        <span class="tag is-white is-radiusless">Project Type</span>
+        <span class="tag is-info is-radiusless">{{ page.type }}</span>
+        </div>
+        </div>
+  </div>
+      </section>
+      
+      <section class="section">
+      <div class="container">
+      <div class="columns">
+      <div class="column is-offset-1 is-10">
+      <div class="content" style="text-align:justify">
+         {{ content }}
+      </div>
+
+      </div>
+      </div>
+      </div>
+      </section>

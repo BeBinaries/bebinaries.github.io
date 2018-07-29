@@ -1,0 +1,76 @@
+---
+layout: "headerfooter"
+---
+
+<section class="hero is-primary">
+<div class="hero-body">
+  <div class="container">
+    <h1 class="title is-1">
+      Project List
+    </h1>
+  </div>
+</div>
+</section>
+<br><br>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Major Projects
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                {% for projects in  site.posts %}
+                {% if projects.type == "major"%}
+                <li><a href="{{ projects.url }}">{{ projects.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="column">
+          <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Minor Projects
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  {% for projects in  site.posts %}
+                  {% if projects.type == "minor"%}
+                  <li><a href="{{ projects.url }}">{{ projects.title }}</a></li>
+                  {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="column">
+            <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Research Projects
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                    {% for projects in  site.posts %}
+                    {% if projects.type == "research"%}
+                    <li><a href="{{ projects.url }}">{{ projects.title }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+      </div>
+  </section>
