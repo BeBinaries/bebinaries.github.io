@@ -5,23 +5,28 @@ layout: "headerfooter"
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Projects
-          </h1>
-          <h2 class="subtitle">
             {{ page.title }}
-          </h2>
+          </h1>
+          <br>
+          <div class="control">
+          <div class="tags has-addons">
+          <span class="tag is-white is-radiusless">Project Type</span>
+          <span class="tag is-info is-radiusless">{{ page.type }}</span>
+          </div>
+          </div>
+          <br>
+          <div class="field is-grouped is-grouped-multiline">
+          <div class="control">
+            <div class="tags has-addons">
+              <p class="tag ">{{ page.technology }}</p>
+            </div>
+          </div>
+    </div>
         </div>
-        <br>
-        <br>
-        <div class="control">
-        <div class="tags has-addons">
-        <span class="tag is-white is-radiusless">Project Type</span>
-        <span class="tag is-info is-radiusless">{{ page.type }}</span>
-        </div>
-        </div>
-  </div>
+
+      </div>
       </section>
-      
+
       <section class="section">
       <div class="container">
       <div class="columns">
@@ -29,7 +34,7 @@ layout: "headerfooter"
       <div class="content" style="text-align:justify">
          {{ content }}
       </div>
-
+      
       </div>
       </div>
       </div>
