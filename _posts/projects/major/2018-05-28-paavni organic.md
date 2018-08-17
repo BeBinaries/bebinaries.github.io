@@ -18,6 +18,5 @@ First is the admin side which has complete access to every component of system a
 <h2>Our gains</h2>
 We learned the software development process in detail. We were following the incremental model from the software development life cycle models. It was a paid project and we managed to get considerable reward for our services.
 
-<h2>Our Partners</h2>
+<h2>Collaborator</h2>
 <b> Mr. Rajan Choudhary</b><br>
-<b> Mr. Alok Kumar</b>
