@@ -41,7 +41,7 @@ function App() {
 
       <nav className="fixed top-0 w-full z-40 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border-b border-slate-200 dark:border-zinc-800">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <span className="font-bold text-xl tracking-tight">RKR.</span>
+          <span className="font-bold text-xl tracking-tight">Rajnish.</span>
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-zinc-800 transition-colors"
